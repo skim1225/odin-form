@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML and CSS Form</title>
-</head>
-<body>
-    <header>
-        <div>
-            <img src="img/logo.png" alt="The Odin Project logo">
-            <h1>ODIN</h1>
-        </div>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>HTML and CSS Form</title>
+    </head>
+    <body>
+        <header>
+            <div id="backdrop">
+                <img src="img/logo.png" alt="The Odin Project logo">
+                <h1>ODIN</h1>
+            </div>
+        </header>
         <main>
             <div id="top">
                 <p>This is not a real online service! I'm just learning how to make a form.</p>
@@ -29,21 +31,15 @@
                     <label for="tel">PHONE NUMBER</label>
                     <input type="tel" id="tel">
                     <label for="pass">PASSWORD</label>
-                    <input type="password" id="pass">
+                    <input type="password" id="pass" class="error">
                     <label for="pass-confirm">CONFIRM PASSWORD</label>
-                    <input type="password" id="pass-confirm">
-                    
+                    <input type="password" id="pass-confirm" class="error">
                 </form>
             </div>
             <div id="bottom">
                 <button>Create Account</button>
                 <p>Already have an account? <span id="login">Log in</span></p>
-            </div>
-            
+            </div>    
         </main>
-    </header>
-    <main>
-
-    </main>
-</body>
+    </body>
 </html>

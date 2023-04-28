@@ -2,3 +2,37 @@
     font-family: norse;
     src: url(./fonts/Norse-Bold.otf);
 }
+
+body {
+    display: flex;
+}
+
+header {
+    background-image: url("img/background.jpg");
+    background-size: cover;
+}
+
+header h1 {
+    color: white;
+    font-family: norse, sans-serif;
+}
+
+#backdrop {
+    background-color: black;
+    opacity: 0.7;
+    height: 20%;
+    top: 20%;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    background-color: #596D48;
+}
+
+input {
+    border-color: #E5E7EB;
+}
